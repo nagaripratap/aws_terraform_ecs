@@ -54,7 +54,7 @@ jobs:
  
      - name: Terraform plan
        id: plan
-       if: github.event_name == 'pull_request'
+       #if: github.event_name == 'pull_request'
        run: terraform plan -var-file=subnet.tfvars -no-color -input=false
        continue-on-error: true
     
