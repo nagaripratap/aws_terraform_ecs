@@ -247,5 +247,5 @@ resource "aws_iam_role_policy" "codebuild_policy" {
 EOF
 }
 data "aws_kms_alias" "s3kmskey" {
-  name = "alias/flask_app_s3kmskey_2"
+  name = "alias/flask_app_s3kmskey_3"
 }
